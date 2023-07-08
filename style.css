@@ -244,6 +244,13 @@ footer {
     float: left;
 }
 
+@media (max-width: 768px) {
+    .your-element-class {
+      height: unset;
+      width: 100vw;
+    }
+  }
+
 #work {
     /* margin-left: 0px; */
     /* viewport-fit: 100%; */
