@@ -245,8 +245,9 @@ footer {
     float: left;
 }
 
+/* you are HERE */
 @media (max-width: 768px) {
-    #work img {
+    #work-images img {
         height: unset;
         width: 100vw;
         object-fit: contain;
