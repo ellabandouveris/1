@@ -9,7 +9,8 @@ body {
 
 .indexprojects {
     margin: 20% 0 9%;
-    line-height: 2.4;}
+    line-height: 2.4;
+}
 
 .morework {
     margin: 20% 0 0 20%;
@@ -57,7 +58,7 @@ h2 {
     margin-bottom: 10%;
     float: left;
 }
-      
+
 
 
 p {
@@ -66,7 +67,7 @@ p {
     color: rgb(239, 215, 202);
     text-align: left;
     max-width: 60%;
-    font-size:1.2em;
+    font-size: 1.2em;
     line-height: 1.2;
 }
 
@@ -75,7 +76,7 @@ p {
 @media screen and (max-width: 600px) {
     html {
         font-size: 0.6em;
-        width: 200px; 
+        width: 200px;
     }
 }
 
@@ -111,7 +112,7 @@ a:hover+#daniellasmall {
 
 
 #flower {
-        z-index: -1;
+    z-index: -1;
     display: none;
     width: 30%;
     position: absolute;
@@ -224,7 +225,7 @@ footer {
 }
 
 #mapright2 {
-   text-align: right;
+    text-align: right;
     margin-right: -20%;
     max-width: 100%;
     font-size: 20px;
@@ -245,11 +246,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .your-element-class {
-      height: unset;
-      width: 100vw;
+    #work img {
+        height: unset;
+        width: 100vw;
     }
-  }
+}
 
 #work {
     /* margin-left: 0px; */
@@ -265,14 +266,16 @@ footer {
 }
 
 
-#work-images-2{
-    height: 50vh;;
+#work-images-2 {
+    height: 50vh;
+    ;
     float: left;
 }
 
 .line {
     margin-top: 1%;
 }
+
 /* 
 #ellalogoblur {
     display: block;
@@ -300,34 +303,35 @@ footer {
     display: inline-block;
     top: 2px;
     left: 2px;
-    width: 400px; 
-    height: 200px; 
+    width: 400px;
+    height: 200px;
     overflow: hidden;
-  }
+}
 
-  .image-container img {
+.image-container img {
     display: block;
-    width: 400px; 
-    height: 200px; 
-    /* height: 100%; Make the image fill the container vertically */ */
-  }
+    width: 400px;
+    height: 200px;
+    /* height: 100%; Make the image fill the container vertically */
+    */
+}
 
-  .image-container .overlay-image {
+.image-container .overlay-image {
     position: fixed;
     top: 34px;
     left: 0;
     opacity: 0;
     transition: opacity 0.1s ease-in-out;
-    z-index: 99; 
-  }
+    z-index: 99;
+}
 
 
-  .image-container:hover .overlay-image {
+.image-container:hover .overlay-image {
     opacity: 1;
-  }
+}
 
 
-  
+
 /* .logo .blur {
     width: 35%;
     position: absolute; 
@@ -345,10 +349,10 @@ footer {
 
 
 
-#email{
+#email {
     margin-top: 50px;
     text-align: right;
-    margin: 0 0 0 13% ;
+    margin: 0 0 0 13%;
     max-width: 100%;
     font-size: 1rem;
     color: red;
@@ -364,16 +368,22 @@ footer {
 
 .video-container {
     position: relative;
-    width: 300px; /* Set the width of the video container */
-    height: 100px; /* Set the height of the video container */
-    overflow: hidden; /* Hide any overflowing video content */
-  }
+    width: 300px;
+    /* Set the width of the video container */
+    height: 100px;
+    /* Set the height of the video container */
+    overflow: hidden;
+    /* Hide any overflowing video content */
+}
 
-  .video-container video {
-    width: 80%; /* Make the video fill the container horizontally */
-    height: 80%; /* Make the video fill the container vertically */
-  }
-  video {
+.video-container video {
+    width: 80%;
+    /* Make the video fill the container horizontally */
+    height: 80%;
+    /* Make the video fill the container vertically */
+}
+
+video {
     object-fit: contain;
     overflow-clip-margin: content-box;
     overflow: clip;
@@ -383,34 +393,40 @@ footer {
 
 .iframe-container {
     position: relative;
-    width: 800px;;
-    height: 800px; /* Set the desired height for the embedded website */
-  }
+    width: 800px;
+    ;
+    height: 800px;
+    /* Set the desired height for the embedded website */
+}
 
-  .iframe-container iframe {
-    width: 800px;;
-    height: 800px;;
-    width: 800px;;
-    border: none; /* Remove the border around the embedded website */
-  }
+.iframe-container iframe {
+    width: 800px;
+    ;
+    height: 800px;
+    ;
+    width: 800px;
+    ;
+    border: none;
+    /* Remove the border around the embedded website */
+}
 
-link-style{
+link-style {
     margin: 3% 0 0 13%;
     font-family: "Arial";
     color: rgb(239, 215, 202);
     text-align: left;
     max-width: 60%;
-    font-size:1.2em;
+    font-size: 1.2em;
     line-height: 1.2;
 }
 
-b{
+b {
     margin: 20% 20% 0 25%;
     font-family: "Arial";
     color: rgb(239, 215, 202);
     text-align: left;
     max-width: 60%;
-    font-size:1.2em;
+    font-size: 1.2em;
     line-height: 1.2;
 }
 
@@ -421,31 +437,30 @@ b{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 50px;
-        }
+}
 
-        .grid-item {
-            text-align: center;
-        }
+.grid-item {
+    text-align: center;
+}
 
-        .grid-item img {
-            max-width: 100%;
-            height: auto;
-        }
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
 
-      
 
-        @media (max-width: 600px) {
-            .grid-container {
-                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            }
 
-            .title {
-                font-size: 12px;
-            }
-        }
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
 
-        .topfix {
-           position: relative;
-            top: -50px;
-        }
+    .title {
+        font-size: 12px;
+    }
+}
 
+.topfix {
+    position: relative;
+    top: -50px;
+}
