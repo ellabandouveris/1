@@ -247,10 +247,11 @@ footer {
 
 /* you are HERE */
 @media (max-width: 768px) {
-    #work-images img {
+    #work img {
         height: auto;
         width: 100vw;
         object-fit: contain;
+        float: none; 
     }
 }
 
