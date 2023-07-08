@@ -249,6 +249,7 @@ footer {
     #work img {
         height: unset;
         width: 100vw;
+        object-fit: contain;
     }
 }
 
